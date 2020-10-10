@@ -53,20 +53,21 @@
 						<div class="user__column">
 							<div class="user__column__title">Просмотренные фильмы</div>
 							<ul class="user__column_list">
-								<li class="user__column_item">Логан</li>
-								<li class="user__column_item">Лига справедливости</li>
-								<li class="user__column_item">Ла-ла ленд</li>
-								<li class="user__column_item">Одержимость</li>
-								<li class="user__column_item">Скотт пилигрим против...</li>
+								<li class="user__column_item">Логан <div class="delete"></div></li>
+								<li class="user__column_item">Лига справедливости <div class="delete"></div></li>
+								<li class="user__column_item">Ла-ла ленд <div class="delete"></div></li>
+								<li class="user__column_item">Одержимость <div class="delete"></div></li>
+								<li class="user__column_item">Скотт пилигрим против... <div class="delete"></div></li>
 							</ul>
 						</div>
 						<div class="user__column">
 							<div class="user__column__title">Добавить новый фильм</div>
 							<form action="" class="user__column_form form">
 								<label for="addFilm" class="form__label">Введите название фильма</label>
-								<input type="text" id="addFilm" class="form__input_f" placeholder="Что уже посмотрено..?">
-								<label for="likeThis" class="form__label">Сделать его любимым</label>
-								<input type="text" id="likeThis" class="form__input_s" value="Да!">
+								<input type="text" id="addFilm" class="form__input_f" value="" placeholder="Что уже посмотрено..?">
+								<label class="form__label">Сделать его любимым</label>
+								<label for="likeThis" class="form__label">Да!</label>
+								<input type="checkbox" id="likeThis" class="form__input_s" value="Да">
 								<button type="submit" class="form__btn">Подтвердить</button>
 							</form>
 						</div>

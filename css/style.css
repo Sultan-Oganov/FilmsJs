@@ -238,6 +238,21 @@ body {
   background: url("../img/star.png") 0 0/15px 15px no-repeat;
   padding: 0 0 0 20px;
 }
+.user__column_list li .delete {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+.user__column_list li:hover .delete {
+  background: url("../img/bin.png") 0 0/15px 15px no-repeat;
+  cursor: pointer;
+  transition: all 0.1s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -moz-transition: all 0.1s ease 0s;
+  -ms-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+}
 .form {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }

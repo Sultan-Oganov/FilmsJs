@@ -178,6 +178,20 @@ body{
 					background: url("../img/star.png") 0 0/ 15px 15px no-repeat;
 					padding: 0 0 0 20px;
 				}
+				.delete{
+						width: 15px;
+						height: 15px;
+						display: inline-block;
+						margin: 0 0 0 5px;
+				}
+				&:hover {
+					.delete{
+						background: url("../img/bin.png") 0 0/ 15px 15px no-repeat;
+						cursor: pointer;
+						@include anim(0.1s, 0s);
+					}
+				}
+				
 			}
 		}
 		&_item {}
